@@ -35,7 +35,7 @@ video urls and subfolder names, just so that the characters play nicely with the
 2. You can also specify how far into a playlist to download:
 
          $ ./Download.py <playlist_url> <playlist_name> <playlist_start> <playlist_end>
-     eg: `$ '/Download.py https://www.youtube.com/watch?v=0GoPRCjEhTc&list=PLYu7z3I8tdEn2m_lLL3Vn7BDwkvMLo_hl' 's' 1 3`
+     eg: `$ ./Download.py 'https://www.youtube.com/watch?v=0GoPRCjEhTc&list=PLYu7z3I8tdEn2m_lLL3Vn7BDwkvMLo_hl' 's' 1 3`
      
    This will download everything on that playlist from video 1 to 3 (inclusive) and they will end up inside the 's' subfolder.
    
