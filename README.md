@@ -43,6 +43,6 @@ video urls and subfolder names, just so that the characters play nicely with the
    
 Else:
 
-Note that the videos are all downloaded in mp4 format and implicitly in 720p. If you want higher resolutions, go to pytube's website to find out how to increase the deffault res. 
+Note that the videos are all downloaded in 'mp4' format (this is natively supported by any iDevice) and implicitly in 720p. If you want higher resolutions, go to pytube's website to find out how to increase the deffault res. 
 That's it! Happy downloading!
    
