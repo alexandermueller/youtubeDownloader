@@ -31,7 +31,7 @@ def main(argc, argv):
         print '          - "video_playlist_url marioGame 12 12"'
         return
     
-    filepath = '%s/%s' % (location, name) if len(urls) > 1 else location 
+    filepath = '%s/%s' % (location, name) if len(urls) > 0 and name != '' else location 
     
     if not isdir(filepath):
             makedirs(filepath)
