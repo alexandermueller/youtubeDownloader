@@ -39,7 +39,7 @@ video urls and subfolder names, just so that the characters play nicely with the
      
    This will download everything on that playlist from video 1 to 3 (inclusive) and they will end up inside the 's' subfolder.
    
-   Note: playlists are automatically detected by scanning the url string, which contains '&list=' inside the current Youtube url name structure.
+   Note: playlists are automatically detected by scanning the url string, which contains 'list=' inside the current Youtube url name structure.
    
 Else:
 
