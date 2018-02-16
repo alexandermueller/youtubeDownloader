@@ -18,7 +18,7 @@ def main(argc, argv):
 
     if argc == 1:
         urls = [argv[0]]
-    elif argc == 2 and '&list=' in argv[0]:
+    elif argc == 2 and 'list=' in argv[0]:
         urls = ['https://www.youtube.com%s' % (link) for link in getLinks(argv[0])]
     elif passesPlaylistCheck(argc, argv):
         links = ['https://www.youtube.com%s' % (link) for link in getLinks(argv[0])]
