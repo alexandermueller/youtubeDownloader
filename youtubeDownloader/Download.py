@@ -9,7 +9,7 @@ from Constants import VIDEOS_PATH, VIDEOS_PATH_WIN
 from GetLinks import getLinks
 
 def passesPlaylistCheck(argc, argv):
-    return argc >= 1 and not argv[0].isdigit() and argc == 4 and argv[2].isdigit() and argv[3].isdigit() and '&list=' in argv[0]
+    return argc >= 1 and not argv[0].isdigit() and argc == 4 and argv[2].isdigit() and argv[3].isdigit() and 'list=' in argv[0]
 
 def main(argc, argv):
     urls     = []
