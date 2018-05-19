@@ -49,6 +49,8 @@ def main(argc, argv):
 
     print 'Finished!'
 
+""" The following Three Functions Were Copied From: https://github.com/nficano/pytube/edit/master/pytube/cli.py """
+
 def on_progress(stream, chunk, file_handle, bytes_remaining):
     """On download progress callback function.
     :param object stream:
